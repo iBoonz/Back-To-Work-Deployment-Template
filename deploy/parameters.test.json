@@ -1,0 +1,56 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccountName": {
+            "value": ""
+        },
+        "containerName": {
+            "value": "$web"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "FunctionHostingPlanName":{
+            "value": "-ASP"
+        },
+        "FunctionSiteName":{
+            "value": "-Func"
+        },
+        "Healthbot_Trigger_Uri": {
+            "value": ""
+        },
+	    "Healthbot_API_JWT_SECRET": {
+            "value": ""
+        },
+		 "Healthbot_Name": {
+            "value": ""
+        },
+		 "Healthbot_ScenarioId": {
+            "value": ""
+        },
+		 "FHIR_Audience": {
+            "value": ""
+        },
+		 "FHIR_Authority": {
+            "value": ""
+        },
+		 "FHIR_ClientId": {
+            "value": ""
+        },
+		 "FHIR_ClientSecret": {
+            "value": ""
+        },
+		 "FHIR_URL": {
+            "value": ""
+        },
+        "allowedOrigins": {
+            "value": [
+                "https://functions.azure.com",
+                "https://functions-staging.azure.com",
+                "https://functions-next.azure.com",
+                "http://localhost:54632"
+            ]
+        }
+    }
+}
